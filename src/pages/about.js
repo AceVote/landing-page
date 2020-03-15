@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
   return (
-    <header className="hero">
+    <header className="section-spacer">
       <div className="container">
         <h1>this is about</h1>
       </div>
