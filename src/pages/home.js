@@ -1,9 +1,12 @@
 import React from "react";
+import "./style/style.css";
 const Home = () => {
   return (
-    <div>
-      <h1>this is emmanuel</h1>
-    </div>
+    <header className="hero">
+      <div className="container">
+        <h1>this is emmanuel</h1>
+      </div>
+    </header>
   );
 };
 

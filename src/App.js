@@ -5,10 +5,11 @@ import Works from "./pages/works";
 import Team from "./pages/team";
 import Contact from "./pages/contact";
 import { Switch, Route } from "react-router-dom";
+import "./App.css";
 import Navbar from "./header/navbar";
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
 
       <Switch>

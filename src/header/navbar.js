@@ -1,12 +1,38 @@
 import React from "react";
-import "./navbar.css";
 import { Link } from "react-router-dom";
+import "./navbar.css";
+import logo from "../images/Acevote.PNG";
+import { FaAlignRight } from "react-icons/fa";
 class Navbar extends React.Component {
+  state = {
+    isOPen: false
+  };
+  handleToggle = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  };
   render() {
     return (
-      <div className="app">
-        <nav className="app-header">
-          <ul>
+      <nav className="navbar">
+        <div className="nav-center">
+          <div className="nav-header">
+            <Link to="/">
+              <img
+                style={{ width: "40%", height: "40%" }}
+                src={logo}
+                alt="Ace Vote"
+              />
+            </Link>
+            <button
+              type="button"
+              className="nav-btn"
+              onClick={this.handleToggle}
+            >
+              <FaAlignRight className="nav-icon" />
+            </button>
+          </div>
+          <ul
+            className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
+          >
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -17,14 +43,14 @@ class Navbar extends React.Component {
               <Link to="/team">Team</Link>
             </li>
             <li>
-              <Link to="/about">About AceVote</Link>
+              <Link to="/about">About </Link>
             </li>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     );
   }
 }

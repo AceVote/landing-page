@@ -2,9 +2,11 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>this is the contact page</h1>
-    </div>
+    <header className="hero">
+      <div className="container">
+        <h1>this is about</h1>
+      </div>
+    </header>
   );
 };
 
