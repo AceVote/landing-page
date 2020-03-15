@@ -2,9 +2,11 @@ import React from "react";
 
 const Works = () => {
   return (
-    <div>
-      <h1>this is how it works page</h1>
-    </div>
+    <header className="hero">
+      <div className="container">
+        <h1>this is works</h1>
+      </div>
+    </header>
   );
 };
 
