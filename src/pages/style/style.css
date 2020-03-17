@@ -16,3 +16,59 @@
 .section-spacer {
   padding: 100px 0;
 }
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 550px;
+}
+
+.hero-content {
+  margin-bottom: 50px;
+}
+
+.hero-title__group {
+  margin-top: 30px;
+}
+
+.hero-title {
+  font-size: 32px;
+  line-height: 37px;
+  margin-bottom: 30px;
+}
+
+.hero-title span {
+  display: block;
+  color: #1b2733;
+}
+
+.hero-form .form-control {
+  border: 1px solid rgba(47, 91, 231, 0.2);
+  padding: 14px;
+  border-right: 0;
+}
+
+.hero-figure {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hero-figure img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.zuri {
+  text-align: left;
+  line-height: 1.5;
+}
+.lead {
+  font-weight: normal;
+  line-height: 29px;
+  text-align: left;
+}
