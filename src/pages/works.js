@@ -1,7 +1,7 @@
 import React from "react";
 import voting from "../assets/voting.png";
-import security from "../assets/security.png";
-import Blockchain from "../assets/blockchain-iilustration.png";
+import result from "../assets/result.png";
+import time from "../assets/time.png";
 import twofactor from "../assets/two-factor.png";
 const Works = () => {
   return (
@@ -58,7 +58,7 @@ const Works = () => {
             <div className="col-sm-6">
               <div className="feature-list-image">
                 <img
-                  src={security}
+                  src={time}
                   alt="voting"
                   className="img-fluid"
                   height="60%"
@@ -136,7 +136,7 @@ const Works = () => {
             <div className="col-sm-6">
               <div className="feature-list-image">
                 <img
-                  src={Blockchain}
+                  src={result}
                   alt="voting"
                   className="img-fluid"
                   height="60%"

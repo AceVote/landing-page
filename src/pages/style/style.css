@@ -105,20 +105,20 @@
   font-size: 40px;
   padding-bottom: 20px;
   -webkit-text-stroke: 2px #557dbf;
-  color: transparent;
+
+  -webkit-text-fill-color: transparent;
 }
 .ghost-red {
   font-size: 40px;
   padding-bottom: 20px;
   -webkit-text-stroke: 2px #e1382b;
-
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .ghost-green {
   font-size: 40px;
   padding-bottom: 20px;
   -webkit-text-stroke: 2px #189e59;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .content-title {
   font-size: 27px;
