@@ -1,4 +1,5 @@
 import React from "react";
+import Team from "../pages/team";
 import Blockchain from "../assets/blockchain-iilustration.png";
 import "./style/style.css";
 import Works from "../pages/works";
@@ -87,6 +88,7 @@ const Home = () => {
         </div>
       </section>
       <Works />
+      <Team />
     </>
   );
 };
