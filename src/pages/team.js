@@ -54,7 +54,6 @@ const Team = () => {
             return (
               <div key={item.objectID} className="container-fluid">
                 <div
-                  id="carouselExample"
                   className="carouselPrograms carousel slide"
                   data-ride="carousel"
                   data-interval="false"
