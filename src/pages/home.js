@@ -1,6 +1,8 @@
 import React from "react";
-import voting from "../assets/voting.png";
+import Blockchain from "../assets/blockchain-iilustration.png";
 import "./style/style.css";
+import Works from "../pages/works";
+import { FaRocket, FaLightbulb, FaUser } from "react-icons/fa";
 const Home = () => {
   return (
     <>
@@ -11,14 +13,14 @@ const Home = () => {
               <div className="hero-content">
                 <div className="hero-title__group">
                   <div className="hero-title">
-                    <h2 className="zuri">Ace Vote Nigeria</h2>
+                    <h2 className="zuri">
+                      Ace Vote Nigeria is a secure end to end voting platform
+                    </h2>
                   </div>
                   <div className="Hero--Subtitle">
                     <p className="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Tenetur fugiat impedit voluptatem inventore quidem sunt,
-                      quia natus odio eligendi excepturi nulla nobis tempore
-                      repellendus ullam quae suscipit, porro minima neque.{" "}
+                      Built on top of Ethereum Blockchain, Ace vote is a secure,
+                      transperent and credible voting platform
                     </p>
                   </div>
                 </div>
@@ -27,7 +29,7 @@ const Home = () => {
             <div className="col-12 col-sm-5 ml-auto ml-pic">
               <div className="hero-figure">
                 <img
-                  src={voting}
+                  src={Blockchain}
                   className="img-fluid w-100"
                   alt="Illustration of election"
                 />
@@ -36,6 +38,55 @@ const Home = () => {
           </div>
         </div>
       </header>
+      <section className="section-spacer">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 col-12">
+              <div className="feature-card">
+                <div className="feature-card__body">
+                  <FaRocket className="ghost-green" />
+                  <h4 className="feature-title">Concept of Ace Vote</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Porro veritatis in laboriosam iusto iste dolorum libero
+                    provident? Ipsam aperiam illo blanditiis excepturi delectus
+                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div className="feature-card">
+                <div className="feature-card__body">
+                  <FaLightbulb className="ghost-blue" />
+                  <h4 className="feature-title">Why Ace Vote?</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Porro veritatis in laboriosam iusto iste dolorum libero
+                    provident? Ipsam aperiam illo blanditiis excepturi delectus
+                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div className="feature-card m-0">
+                <div className="feature-card__body">
+                  <FaUser className="ghost-red" />
+                  <h4 className="feature-title">Target audience</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Porro veritatis in laboriosam iusto iste dolorum libero
+                    provident? Ipsam aperiam illo blanditiis excepturi delectus
+                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Works />
     </>
   );
 };
