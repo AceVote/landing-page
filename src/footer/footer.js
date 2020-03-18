@@ -10,7 +10,7 @@ const Footer = () => {
             <div class="col-md-4 col-12">
               <div class="footer-widget first-of-footer-widget">
                 <img src={logo} class="logo-sm mb-10" alt="logo" />
-                <p>&copy; 20130 | All Rights Reserved.</p>
+                <p>&copy; 2020 | All Rights Reserved.</p>
                 <span>Feel free to drop us an email at </span>
                 <a href="mailto:acevote11@gmail.com">acevote11@gmail.com</a>
               </div>
@@ -18,11 +18,12 @@ const Footer = () => {
 
             <div class="col-md-4 col-6">
               <div class="footer-widget">
-                <h4 class="footer-widget__title">Partners</h4>
+                <h4 class="footer-widget__title">Official Partners</h4>
                 <ul>
                   <li class="list-unstyled">
                     <li>NaijaHacks</li>
                     <li>BizSkill Academy</li>
+                    <li>HubSpot</li>
                   </li>
                 </ul>
               </div>
