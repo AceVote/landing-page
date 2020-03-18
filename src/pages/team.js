@@ -28,7 +28,7 @@ const team = [
     githubLink: "https://www.github.com/Khay-EMMA",
     linkedinLink: "https://www.github.com/Khay-EMMA",
     twitterLink: "https://www.twitter.com/njokuScript",
-    image: require("../assets/team/avatar.png"),
+    image: require("../assets/team/akor.png"),
     objectID: 3
   },
   {
