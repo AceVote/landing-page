@@ -48,10 +48,9 @@ const Home = () => {
                   <FaRocket className="ghost-green" />
                   <h4 className="feature-title">Concept of Ace Vote</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    Ace Vote is an autonomous and decentralized voting
+                    application that runs on Ethereum blockchain, using several
+                    consensus protocol for users verification
                   </p>
                 </div>
               </div>
@@ -62,10 +61,13 @@ const Home = () => {
                   <FaLightbulb className="ghost-blue" />
                   <h4 className="feature-title">Why Ace Vote?</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    Voting refers to a formal expression of opinion or will in
+                    response to a proposed candidate for office. Ace vote solves
+                    the problem of lack of security during elections, lack of
+                    trust in the electoral process, corrupt practices and the
+                    disinformation of voters. Also, the paper voting system is
+                    not environmentally friendly as it eventually plays a role
+                    in carbon emission.{" "}
                   </p>
                 </div>
               </div>
@@ -76,10 +78,8 @@ const Home = () => {
                   <FaUser className="ghost-red" />
                   <h4 className="feature-title">Target audience</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    Our Application is not only limited to goverment
+                    instituions, but also schools, private organisation, etc
                   </p>
                 </div>
               </div>

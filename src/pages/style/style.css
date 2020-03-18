@@ -233,6 +233,7 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  display: flex;
   border: 5px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -1173,6 +1174,7 @@
     z-index: -1;
     display: block;
     visibility: visible;
+    display: flex;
   }
 
   /* right or prev direction */
