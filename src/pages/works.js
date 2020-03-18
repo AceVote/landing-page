@@ -28,10 +28,8 @@ const Works = () => {
                 <div className="content-header">
                   <h2 className="content-title">Create Election</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    Organisations Register on the platform and create an
+                    Election, and update list of candidates
                   </p>
                 </div>
               </div>
@@ -47,10 +45,9 @@ const Works = () => {
                 <div className="content-header">
                   <h2 className="content-title">Set Election Time</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    Organisations set Election time. Election time has an open
+                    date and closed date, voters are meant to cast their vote
+                    within this period of time
                   </p>
                 </div>
               </div>
@@ -88,10 +85,10 @@ const Works = () => {
                 <div className="content-header">
                   <h2 className="content-title">Join Election</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    Organisation members Register on the platform, search for
+                    election using the organisations name, and join the election
+                    by using a unique ID given to the voter, confirming that the
+                    user is eligible to vote
                   </p>
                 </div>
               </div>
@@ -108,10 +105,8 @@ const Works = () => {
                 <div className="content-header">
                   <h2 className="content-title">Cast Vote</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    Voters cast their vote by voting for their desired
+                    candidates. Voters registered on the platform are anonymous
                   </p>
                 </div>
               </div>
@@ -149,10 +144,10 @@ const Works = () => {
                 <div className="content-header">
                   <h2 className="content-title">Watch Realtime Results</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro veritatis in laboriosam iusto iste dolorum libero
-                    provident? Ipsam aperiam illo blanditiis excepturi delectus
-                    vel maxime deleniti inventore autem? Voluptas, commodi?
+                    As Voting goes on the within the expected election time,
+                    voting is being counted in realtime, and voters can watch
+                    results in realtime from the comfort of their home or
+                    offices
                   </p>
                 </div>
               </div>
