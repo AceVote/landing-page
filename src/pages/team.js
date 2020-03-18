@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from "../assets/team/avatar.png";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 const team = [
   {
@@ -9,6 +8,7 @@ const team = [
     githubLink: "https://www.github.com/Khay-EMMA",
     linkedinLink: "https://www.github.com/Khay-EMMA",
     twitterLink: "https://www.twitter.com/njokuScript",
+    image: require("../assets/team/emma.png"),
     objectID: 1
   },
   {
@@ -18,6 +18,7 @@ const team = [
     githubLink: "https://www.github.com/Khay-EMMA",
     linkedinLink: "https://www.github.com/Khay-EMMA",
     twitterLink: "https://www.twitter.com/njokuScript",
+    image: require("../assets/team/noah.png"),
     objectID: 2
   },
   {
@@ -27,6 +28,7 @@ const team = [
     githubLink: "https://www.github.com/Khay-EMMA",
     linkedinLink: "https://www.github.com/Khay-EMMA",
     twitterLink: "https://www.twitter.com/njokuScript",
+    image: require("../assets/team/avatar.png"),
     objectID: 3
   },
   {
@@ -36,6 +38,7 @@ const team = [
     githubLink: "https://www.github.com/Khay-EMMA",
     linkedinLink: "https://www.github.com/Khay-EMMA",
     twitterLink: "https://www.twitter.com/njokuScript",
+    image: require("../assets/team/tony.png"),
     objectID: 4
   }
 ];
@@ -58,7 +61,7 @@ const Team = () => {
                     <div className="card hovercard">
                       <div className="cardheader"></div>
                       <div className="avatar">
-                        <img src={avatar} alt="lead avatar" />
+                        <img src={item.image} alt="lead avatar" />
                       </div>
                       <div className="info">
                         <div className="title">
