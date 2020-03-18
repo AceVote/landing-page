@@ -20,7 +20,8 @@ const Home = () => {
                   </div>
                   <div className="Hero--Subtitle">
                     <p className="lead">
-                      Built on top of Ethereum Blockchain, Ace vote is a secure,
+                      Africa's first ever decentralized voting platform. Built
+                      on top of Ethereum Blockchain, Ace vote is a secure,
                       transperent and credible voting platform
                     </p>
                   </div>
