@@ -85,10 +85,8 @@ const Works = () => {
                 <div className="content-header">
                   <h2 className="content-title">Join Election</h2>
                   <p>
-                    Organisation members Register on the platform, search for
-                    election using the organisations name, and join the election
-                    by using a unique ID given to the voter, confirming that the
-                    user is eligible to vote
+                    Eligible Voters are sent an email confirmation with a voting
+                    link, where they are required to login and cast their votes
                   </p>
                 </div>
               </div>

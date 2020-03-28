@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import logo from "../images/logo.png";
+import logo from "../images/Acevote.PNG";
 import { FaAlignRight } from "react-icons/fa";
 class Navbar extends React.Component {
   state = {
@@ -17,7 +17,7 @@ class Navbar extends React.Component {
           <div className="nav-header">
             <Link to="/">
               <img
-                style={{ width: "40%", height: "40%" }}
+                style={{ width: "40%", height: "40%", marginTop: "20px" }}
                 src={logo}
                 alt="Ace Vote"
               />
