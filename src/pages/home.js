@@ -15,7 +15,7 @@ const Home = () => {
                 <div className="hero-title__group">
                   <div className="hero-title">
                     <h2 className="zuri">
-                      Ace Vote Nigeria is a secure end to end voting platform
+                      AceVote is a secure end to end voting platform
                     </h2>
                   </div>
                   <div className="Hero--Subtitle">
