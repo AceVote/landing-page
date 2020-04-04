@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import logo from "../images/Acevote.PNG";
+import logo from "../images/logo.png";
 import { FaAlignRight } from "react-icons/fa";
 class Navbar extends React.Component {
   state = {
-    isOPen: false
+    isOPen: false,
   };
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
@@ -17,7 +17,11 @@ class Navbar extends React.Component {
           <div className="nav-header">
             <Link to="/">
               <img
-                style={{ width: "40%", height: "40%", marginTop: "20px" }}
+                style={{
+                  width: "190px",
+                  height: "50px",
+                  marginRight: "100px",
+                }}
                 src={logo}
                 alt="Ace Vote"
               />
@@ -41,9 +45,6 @@ class Navbar extends React.Component {
             </li>
             <li>
               <Link to="/team">Team</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
